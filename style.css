@@ -1,3 +1,4 @@
+
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -219,17 +220,14 @@ section {
     justify-content: center;
 }
 
-.image-placeholder {
+.hero-image img.profile-pic {
     width: 350px;
     height: 350px;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    object-fit: cover;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--white);
-    font-size: 8rem;
     box-shadow: 0 20px 40px rgba(108, 99, 255, 0.3);
+    border: 5px solid white;
+}
 }
 
 /* About Section */
