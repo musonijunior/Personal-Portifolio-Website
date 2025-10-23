@@ -578,7 +578,6 @@ section {
     box-shadow: 0 20px 40px rgba(108, 99, 255, 0.3);
     border: 5px solid white;
 }
-}
 
 /* About Section */
 .about {
