@@ -1,4 +1,4 @@
-[index.html](https://github.com/user-attachments/files/23105930/index.html)
+[index.html](https://github.com/user-attachments/files/23106539/index.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <div class="image-placeholder">
+                <img src="j.jpg" alt="Musoni Junior - Web Developer" class="profile-pic">
                     <i class="fas fa-user"></i>
                 </div>
             </div>
@@ -272,7 +272,7 @@
     <script src="script.js"></script>
 </body>
 </html>
-[script.js](https://github.com/user-attachments/files/23105942/script.js)
+[script.js](https://github.com/user-attachments/files/23106541/script.js)
 // Mobile Navigation Toggle
 const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('nav-menu');
@@ -348,7 +348,7 @@ window.addEventListener('scroll', () => {
         navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
     }
 });
-[style.css](https://github.com/user-attachments/files/23105946/style.css)
+[style.css](https://github.com/user-attachments/files/23106544/style.css)
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -570,17 +570,14 @@ section {
     justify-content: center;
 }
 
-.image-placeholder {
+.hero-image img.profile-pic {
     width: 350px;
     height: 350px;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    object-fit: cover;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--white);
-    font-size: 8rem;
     box-shadow: 0 20px 40px rgba(108, 99, 255, 0.3);
+    border: 5px solid white;
+}
 }
 
 /* About Section */
